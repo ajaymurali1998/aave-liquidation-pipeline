@@ -1,0 +1,5 @@
+google-cloud-bigquery==3.11.4
+eth-abi==4.2.1
+web3==6.11.1
+pandas==2.1.1
+pyarrow==13.0.0
