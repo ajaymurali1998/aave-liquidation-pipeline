@@ -117,13 +117,20 @@ aave-liquidation-pipeline/
 ├── notebook/
 │   └── aave_liquidation_decoder.ipynb
 ├── sql/
-│   ├── 01_raw_logs_exploration.sql
-│   ├── 02_daily_liquidation_summary.sql
-│   └── 03_wallet_liquidation_history.sql
+│   ├── liquidation_events_formatted.sql
+│   └── wallet_liquidation_history.sql
 ├── src/
 │   └── decoder.py
 └── requirements.txt
 ```
+
+Bigquery Output
+
+<img width="1636" height="783" alt="image" src="https://github.com/user-attachments/assets/9300bd02-fb9a-4c3e-8d35-02e4c931b7db" />
+
+<img width="1640" height="854" alt="image" src="https://github.com/user-attachments/assets/aa6148c5-f076-4c84-ae5d-5c0a6bc83fd8" />
+
+
 
 ---
 
@@ -142,5 +149,5 @@ aave-liquidation-pipeline/
 
 ## Author
 
-**Ajay Murali** — Data Scientist / Analytics Engineer  
+**Ajay Murali** — Data Engineer / Data Scientist / Data Analyst  
 [github.com/ajaymurali1998](https://github.com/ajaymurali1998) · [LinkedIn](https://linkedin.com/in/ajay-murali-304344163) · [Dune](https://dune.com/ajay_murali)
