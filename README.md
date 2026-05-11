@@ -114,7 +114,7 @@ This approach gives full control over data freshness, schema design, and histori
 ```
 aave-liquidation-pipeline/
 ├── README.md
-├── notebooks/
+├── notebook/
 │   └── aave_liquidation_decoder.ipynb
 ├── sql/
 │   ├── 01_raw_logs_exploration.sql
